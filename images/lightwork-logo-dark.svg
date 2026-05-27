@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
+  <title id="title">Lightwork Lounge celestial arch logo on dark background</title>
+  <desc id="desc">A gold arch and crescent with lavender sun rays and a star on a dark rounded background.</desc>
+  <defs>
+    <style>
+      .background { fill: #14101F; }
+      .border { fill: none; stroke: #D6AD5D; stroke-opacity: 0.35; stroke-width: 8; }
+      .gold { fill: #D6AD5D; stroke: #D6AD5D; }
+      .purple { fill: #C8B6FF; stroke: #C8B6FF; }
+      .ray { stroke-width: 8; stroke-linecap: butt; fill: none; }
+      .arch { stroke-width: 15; stroke-linecap: butt; stroke-linejoin: round; fill: none; }
+    </style>
+  </defs>
+
+  <rect class="background" width="640" height="640" rx="96"/>
+  <rect class="border" x="16" y="16" width="608" height="608" rx="82"/>
+
+  <g transform="translate(32 36) scale(0.9) translate(-180 -125)">
+    <!-- Rays -->
+    <g class="purple ray">
+      <line x1="493.5" y1="242" x2="493.5" y2="376"/>
+      <line x1="434" y1="296" x2="451.7" y2="380.1"/>
+      <line x1="552.6" y1="296.1" x2="535.9" y2="380.2"/>
+      <line x1="373" y1="315.9" x2="406.9" y2="394.6"/>
+      <line x1="613.9" y1="316" x2="580.2" y2="394.1"/>
+      <line x1="317.3" y1="348.5" x2="364.8" y2="417.5"/>
+      <line x1="669.7" y1="348.8" x2="621.8" y2="417.1"/>
+      <line x1="269.6" y1="393.3" x2="328.9" y2="449.1"/>
+      <line x1="717.3" y1="393.3" x2="657.5" y2="449.5"/>
+      <line x1="232.3" y1="446.4" x2="300.6" y2="487"/>
+      <line x1="753.6" y1="446.7" x2="685.6" y2="487.4"/>
+      <line x1="207.4" y1="504.8" x2="280.1" y2="529.7"/>
+      <line x1="778" y1="505" x2="706.3" y2="529.9"/>
+      <line x1="195.7" y1="566.3" x2="268.1" y2="574.9"/>
+      <line x1="790.2" y1="566.5" x2="717.9" y2="575.3"/>
+      <line x1="197.9" y1="628.6" x2="266.1" y2="622"/>
+      <line x1="789" y1="628.5" x2="720.8" y2="622"/>
+      <line x1="209.9" y1="687.8" x2="267.2" y2="670.5"/>
+      <line x1="776.1" y1="687.8" x2="718.8" y2="670.7"/>
+    </g>
+
+    <!-- Top sparkle -->
+    <path class="gold" d="M493.5 142.5
+      C497.5 163.5 499.5 168.5 522.5 173
+      C499.5 177.5 497.5 182.5 493.5 204
+      C489.5 182.5 487.5 177.5 465.5 173
+      C487.5 168.5 489.5 163.5 493.5 142.5 Z"/>
+
+    <!-- Arch -->
+    <path class="gold arch" d="M318 740 L318 607
+      C318 506 398 436 493.5 436
+      C589.5 436 672 506 672 607
+      L672 740"/>
+
+    <!-- Inner sparkle -->
+    <path class="purple" d="M493.5 498
+      C497.5 521 500.5 527.5 524 532
+      C500.5 536.5 497.5 542.5 493.5 565
+      C489.5 542.5 486.5 536.5 463 532
+      C486.5 527.5 489.5 521 493.5 498 Z"/>
+
+    <!-- Center dot -->
+    <circle class="gold" cx="493.5" cy="625" r="13"/>
+
+    <!-- Crescent -->
+    <path class="gold" fill-rule="evenodd" d="
+      M404.5 604
+      C397.5 632 403.5 667 424 696
+      C444.5 725 471.5 739 493.5 739
+      C515.5 739 543.5 725 564 696
+      C584.5 667 591.5 632 584.5 604
+      C579 657 547 710.5 493.5 710.5
+      C440 710.5 410 657 404.5 604 Z"/>
+  </g>
+</svg>
