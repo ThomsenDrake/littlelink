@@ -631,3 +631,22 @@
 	--button-background:#0B5CFF;
   --button-border:1px solid #FFFFFF;
 }
+
+/* Lightwork Lounge brand button overrides */
+.button.button-default,
+.button-instagram,
+.button-faceb {
+	--button-text:#ffffff;
+	--button-border:1px solid rgba(255,255,255,0.8);
+	background:var(--button-background);
+}
+
+.button.button-default {
+	--button-background:linear-gradient(135deg, #563084 0%, #7650a0 100%);
+}
+
+.button-instagram,
+.button-faceb {
+	--button-background:linear-gradient(135deg, #ca7f2c 0%, #d4943c 100%);
+	box-shadow:0 12px 22px rgba(202,127,44,0.2);
+}
